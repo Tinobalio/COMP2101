@@ -24,7 +24,7 @@ echo ""
 echo "Displaying The 12 Largest Regular Files:"
 echo "============"
 #find / -type f -exec ls -l du -h {} + 2>/dev/null | sort -k 5 -rh |head -12|cut
-find / -type f -exec ls -l du -h {} + 2>/dev/null | sort -k 5 -rh |head -12|awk '{print $5,$3,$9}'
+find / -type f -exec ls -l du -h {} + 2>/dev/null |sort -k 5 -rh|head -12|awk '{print $5,$3,$9}'
 echo ""
 # for the task, add
 # commands to display a title
