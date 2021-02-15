@@ -1,3 +1,3 @@
 # COMP2101
 README FILE
-Something new is being made her
+Something new is being cooked here
